@@ -1,0 +1,22 @@
+{
+  "name": "react-chrome-extension",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/hacagahasanli/google-extension.git",
+  "author": "HasanliHM <hacaga.hasanli@kapitalbank.az>",
+  "license": "MIT",
+  "scripts": {
+    "watch": "webpack --watch  --progress --config webppack.dev.js"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.4.4"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.74",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
